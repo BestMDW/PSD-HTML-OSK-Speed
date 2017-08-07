@@ -1,0 +1,117 @@
+* { margin: 0; padding: 0; border: 0; }
+
+body {
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #565656;
+	text-align: center;
+	background: #cbcbcb url(images/tlo.jpg) repeat-x;
+}
+
+a {
+	color: #5b5a5a;
+	text-decoration: none;
+}
+
+#top, #container, #footer {
+	margin: 0 auto;
+	width: 959px;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+	clear: both;
+}
+
+input, textarea {
+	border: 1px #8c99a2 solid;
+	font-family: Tahoma;
+	font-size: 12px;
+	color: #565656;
+	background-color: #f8fafb;
+}
+
+.clr { clear: both; }
+
+/**** TOP ****/
+	#top { background-color: #fdfdfd; }
+	#top img { display: block; }
+	#topmenu, #topmenu li {
+		list-style: none;
+		display: block;
+	}
+	#topmenu {
+		height: 35px;
+		background-image: url(images/topmenu-t.gif);
+		background-repeat: repeat-x;
+		background-position: left 5px;
+	}
+	#topmenu li {
+		border-left: 1px #ecedeb solid;
+		text-align: center;
+		float: right;
+	}
+	#topmenu a {
+		padding: 10px 0;
+		border-left: 1px #ffffff solid;
+		width: 113px;
+		color: #5b5a5a;
+		display: block;
+		background: none;
+	}
+	#topmenu a:hover {
+		color: #ffffff;
+		background-image: url(images/topmenu-t2.gif);
+	}
+/**** /TOP ****/
+/**** MAIN ****/
+	#main {
+		width: 919px;
+		background-color: #ffffff;
+		overflow: hidden;
+		float: right;
+	}
+	#zapraszamy {
+		margin-bottom: 37px;
+		display: block;
+		float: left;
+	}
+	#content {
+		margin: 26px 11px;
+		width: 592px;
+		line-height: 16px;
+		float: left;
+	}
+	.title {
+		padding: 13px 0;
+		color: #8c99a8;
+	}
+	.title .data {
+		padding: 3px 2px;
+		color: #ffffff;
+		background-color: #1abaf8;
+	}
+	.more { float: right; }
+/**** /MAIN ****/
+/**** FOOTER ****/
+	#footer {
+		padding: 23px 0;
+		font-size: 10px;
+		color: #858585;
+		overflow: visible;
+		background-image: url(images/footer-1.jpg);
+		background-repeat: no-repeat;
+		background-position: top right;
+	}
+	#footer a { color: #858585; }
+	#footer ul, #footer ul li { list-style: none; }
+	#footer ul { float: right; }
+	#footer ul li {
+		padding: 0 15px;
+		display: inline;
+	}
+	#L {
+		position: absolute;
+		left: 11px;
+		top: -60px;
+	}
+/**** /FOOTER ****/
